@@ -15,15 +15,19 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 ./brew.sh
 ./brew-cask.sh
 
-#########################
-### Node
-./node.sh
+
+
 
 
 ##############################################################################################################
 ### install of common things
 ###
 
+## node
+./node.sh
+
+## Meteor
+curl https://install.meteor.com | /bin/sh
 
 # Type `git open` to open the GitHub page or website for a repository.
 npm install -g git-open
