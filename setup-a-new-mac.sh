@@ -15,6 +15,10 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 ./brew.sh
 ./brew-cask.sh
 
+#########################
+### Node
+./node.sh
+
 
 ##############################################################################################################
 ### install of common things
