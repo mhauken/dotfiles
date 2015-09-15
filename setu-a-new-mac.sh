@@ -8,7 +8,8 @@
 
 ##############################################################################################################
 ### homebrew!
-# (if your maching has /usr/local locked down (like google's), you can do this to place everything in ~/.homebrew
+#Install homebrew:
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 # install all the things
 ./brew.sh
