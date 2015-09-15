@@ -10,7 +10,6 @@ brew upgrade
 
 brew install git
 brew install node # This installs `npm` too using the recommended installation method
-brew install caskroom/cask/brew-cask
 brew git-ftp
 
 
