@@ -1,3 +1,6 @@
+# This file is only used by Git, for example, when a git command is invoked. 
+# So although there's an .aliases file, those aliases are run directly.
+
 [alias]
 	c = commit -am
 	up = pull
