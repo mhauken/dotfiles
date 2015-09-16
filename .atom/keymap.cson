@@ -22,3 +22,7 @@
 
 'atom-text-editor[data-grammar="text html twig"]:not([mini])':
     'tab': 'emmet:expand-abbreviation-with-tab'
+
+# See current file in tree:    
+'.platform-darwin':
+    'ctrl-cmd-a': 'tree-view:reveal-active-file'
