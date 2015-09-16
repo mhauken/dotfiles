@@ -1,0 +1,61 @@
+"*":
+  "exception-reporting":
+    userId: "9f822900-6e19-06d8-ec18-4d28fcc30cb7"
+  "release-notes":
+    viewedVersion: "0.75.0"
+  welcome:
+    showOnStartup: false
+  metrics:
+    userId: "04318b251f267899c20eb1ccd2b40448ac9c2557"
+  editor:
+    fontFamily: "Source Code Pro"
+    showIndentGuide: true
+    scrollPastEnd: true
+    tabLength: 4
+    invisibles: {}
+    softWrap: true
+    softWrapAtPreferredLineLength: true
+  core:
+    themes: [
+      "spacegray-dark-ui"
+      "spacegray-dark-neue-syntax"
+    ]
+    ignoredNames: [
+      ".git"
+      ".svn"
+      ".DS_Store"
+    ]
+    disabledPackages: [
+      "language-clojure"
+      "language-gfm"
+      "language-go"
+      "language-c"
+      "language-java"
+      "language-make"
+      "language-objective-c"
+      "language-perl"
+      "language-python"
+      "language-sql"
+      "autocomplete"
+    ]
+  "markdown-preview":
+    grammars: [
+      "source.gfm"
+      "source.litcoffee"
+      "text.plain"
+      "text.plain.null-grammar"
+    ]
+  feedback:
+    email: "marius.hauken@gmail.com"
+  "autocomplete-plus":
+    autoActivationDelay: 500
+  "atom-beautify":
+    _analyticsUserId: "ba06fe51-9547-4789-930d-91d35acfdfba"
+  emmet: {}
+  "file-icons":
+    coloured: false
+  minimap: {}
+".ini.source":
+  editor:
+    preferredLineLength: 80
+    softWrap: true
