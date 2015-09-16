@@ -1,0 +1,38 @@
+/*
+ * Your Stylesheet
+ *
+ * This stylesheet is loaded when Atom starts up and is reloaded automatically
+ * when it is changed.
+ *
+ * If you are unfamiliar with LESS, you can read more about it here:
+ * http://www.lesscss.org
+ */
+
+.tree-view {
+
+}
+
+atom-text-editor {
+  //-webkit-font-smoothing: antialiased;
+  font-family: "Fira Mono";
+  -webkit-font-smoothing: antialiased;
+}
+
+atom-text-editor, atom-text-editor::shadow,
+:host {
+  .selection .region {
+    background-color: RGBA(0, 225, 255, 0.3);
+  }
+
+  .entity.name.tag {
+    text-decoration: none;
+  }
+
+  .punctuation.section.php.embedded {
+    color: #AC7965;
+  }
+
+  .entity.attribute-name.html {
+    color: #D2876D;
+  }
+}
