@@ -1,3 +1,6 @@
+# This file contains useful aliases to help you write less. 
+# For example, instead of typing 'cd ..' you can set it here to be '..'. Starting to like these files yet? :)
+
 # Easier navigation: .., ..., ...., ....., ~ and -
 alias ..="cd .."
 alias ...="cd ../.."
