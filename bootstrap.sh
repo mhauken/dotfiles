@@ -1,3 +1,9 @@
+# When ran, it will sync the local repo and the one on GitHub, then copy those files to your home folder, 
+# overriding any existing files if they exist.
+
+# Therefore, before running bootstrap.sh it's a good idea to backup your existing dotfiles 
+# and save them somewhere else.
+
 #!/usr/bin/env bash
 cd "$(dirname "${BASH_SOURCE}")"
 git pull origin master
