@@ -26,7 +26,11 @@ Then run this from the .atom-folder
 apm install --packages-file package-list.txt
 ```
 
-## 4. Copy over your working repositories
+## 5. Configure your GIT
+1. [Caching your GitHubpassword](https://help.github.com/articles/caching-your-github-password-in-git/)
+2. [Generate SSH-keys](https://help.github.com/articles/generating-ssh-keys/)
+
+## 6. Copy over your working repositories
 ```bash
 repositories.sh
 ```
