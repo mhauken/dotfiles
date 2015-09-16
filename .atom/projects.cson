@@ -1,0 +1,35 @@
+Skandiabanken:
+  title: "Skandiabanken"
+  paths: [
+    "/Users/admin/GIT/skandiabanken"
+  ]
+stormkast:
+  title: "stormkast"
+  paths: [
+    "/Users/admin/GIT/stormkast"
+  ]
+nin:
+  title: "nin"
+  paths: [
+    "/Users/admin/GIT/nin"
+  ]
+"hauken.io":
+  title: "hauken.io"
+  paths: [
+    "/Users/admin/GIT/hauken.io"
+  ]
+its:
+  title: "its"
+  paths: [
+    "/Users/admin/GIT/its"
+  ]
+"netlife-research":
+  title: "netlife-research"
+  paths: [
+    "/Users/admin/GIT/netliferesearch.com"
+  ]
+lysverket:
+  title: "lysverket"
+  paths: [
+    "/Users/admin/GIT/lysverket"
+  ]
