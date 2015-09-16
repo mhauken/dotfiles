@@ -1,3 +1,5 @@
+# Set files that you'd like Git to ignore on the entire system. Yay, no more .DS_Store being accidentally committed!
+
 # git credential file 
 .gitconfig.local
 
