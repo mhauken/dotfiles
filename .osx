@@ -1,3 +1,6 @@
+# This is my favorite of all the dotfiles. It is run once, manually, for the commands to run and take effect. 
+# Depending on what you've added to this file, you may need to restart your machine.
+
 #!/usr/bin/env bash
 
 # ~/.osx — https://mths.be/osx
