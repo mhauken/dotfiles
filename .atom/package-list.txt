@@ -1,0 +1,10 @@
+ScssBundle@0.5.0
+atom-autocomplete-php@0.8.3
+editorconfig@1.1.1
+emmet@2.3.12
+file-icons@1.6.9
+jquery-snippets@11.0.0
+php-twig@4.0.0
+project-manager@2.4.0
+spacegray-dark-neue-syntax@1.1.6
+spacegray-dark-ui@0.12.0
