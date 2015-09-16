@@ -15,6 +15,11 @@ git clone https://github.com/mhauken/dotfiles.git && cd dotfiles && ./bootstrap.
 
 ## 2 Copy paste the snippets in [setup-a-new-mac](setup-a-new-mac.sh)
 
+## 3 Run [.osx](.osx)
+```bash
+.osx
+```
+
 ## 3 Add all the files from .atom to your .atom-folder
 Then run this from the .atom-folder
 ```bash
