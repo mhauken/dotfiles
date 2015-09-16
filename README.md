@@ -17,7 +17,7 @@ git clone https://github.com/mhauken/dotfiles.git && cd dotfiles && ./bootstrap.
 
 ## 3 Run [.osx](.osx)
 ```bash
-.osx
+source .osx
 ```
 
 ## 3 Add all the files from .atom to your .atom-folder
