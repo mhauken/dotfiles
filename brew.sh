@@ -24,6 +24,7 @@ brew tap homebrew/versions
 brew tap homebrew/homebrew-php
 brew install php56 php56-mcrypt
 brew link php56
+brew install rbenv ruby-build
 
 
 # Remove outdated versions from the cellar
