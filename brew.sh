@@ -22,8 +22,8 @@ brew git-ftp
 brew tap homebrew/dupes
 brew tap homebrew/versions
 brew tap homebrew/homebrew-php
-brew install php56 php56-mcrypt
-brew link php56
+brew install php70 php70-mcrypt
+brew link php70
 brew install rbenv ruby-build
 
 
