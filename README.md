@@ -30,12 +30,8 @@ apm install --packages-file package-list.txt
 1. [Caching your GitHubpassword](https://help.github.com/articles/caching-your-github-password-in-git/)
 2. [Generate SSH-keys](https://help.github.com/articles/generating-ssh-keys/)
 
-## 6. Copy over your working repositories
-```bash
-repositories.sh
-```
 
-## 7. og dette:
+## 6. og dette:
 ```
 # Type `git open` to open the GitHub page or website for a repository.
 npm install -g git-open
