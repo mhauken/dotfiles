@@ -15,8 +15,10 @@ brew update
 brew upgrade
 
 brew install git
-brew install node # This installs `npm` too using the recommended installation method
-brew git-ftp
+brew install nvm # This installs `npm` too using the recommended installation method
+brew install git-ftp
+brew install heroku
+brew install heroku-toolbelt
 
 # For a lot of developement:
 brew tap homebrew/dupes
