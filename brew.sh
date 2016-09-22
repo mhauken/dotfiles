@@ -17,6 +17,7 @@ brew upgrade
 brew install git
 brew install nvm # This installs `npm` too using the recommended installation method
 brew install git-ftp
+brew install mas # This installs Mac App Store command line interface
 brew install heroku
 brew install heroku-toolbelt
 
