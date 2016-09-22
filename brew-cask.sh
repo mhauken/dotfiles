@@ -24,7 +24,7 @@ brew cask install transmit
 
 # browsers
 brew cask install google-chrome
-brew cask install google-chrome-canary
+brew cask install opera
 brew cask install firefox-nightly
 brew cask install torbrowser
 
@@ -41,12 +41,14 @@ brew cask install caffeine
 brew cask install plex-media-server
 brew cask install plex-home-theater
 
-# From apple store:
-# 1password
-# Evernote
-# Sketch
-# Spillo
-# Dash
-# Micro Snitch
-# iA Writer
-# Keynote
+# From apple store via mas:
+mas install 409183694 # Keynote
+mas install 406056744 # Evernote
+mas install 443987910 # 1password
+mas install 413965349 # Soulver
+mas install 775737590 # ia Writer
+mas install 419330170 # Moom
+mas install 507257563 # Sip
+mas install 449589707 # Dash
+mas install 974971992 # Alternote
+mas install 506189836 # Harvest
