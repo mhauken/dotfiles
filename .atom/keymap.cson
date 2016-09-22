@@ -23,6 +23,20 @@
 'atom-text-editor[data-grammar="text html twig"]:not([mini])':
     'tab': 'emmet:expand-abbreviation-with-tab'
 
-# See current file in tree:    
+'atom-text-editor[data-grammar="source js jsx"]':
+     'tab': 'emmet:expand-abbreviation-with-tab'
+
+'atom-text-editor[data-grammar="source js js"]':
+     'tab': 'emmet:expand-abbreviation-with-tab'
+
+# See current file in tree:
 '.platform-darwin':
     'ctrl-cmd-a': 'tree-view:reveal-active-file'
+
+
+# to disable LRU (Last Recently Used) tab-switching
+'body':
+  'ctrl-tab ^ctrl': 'unset!'
+  'ctrl-tab': 'pane:show-next-item'
+  'ctrl-shift-tab ^ctrl': 'unset!'
+  'ctrl-shift-tab': 'pane:show-previous-item'
