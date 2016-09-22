@@ -14,8 +14,12 @@
 
 atom-text-editor {
   //-webkit-font-smoothing: antialiased;
-  font-family: "Fira Mono";
-  -webkit-font-smoothing: antialiased;
+  font-family: "Fira Code";
+	font-weight: 100;
+  font-variant-ligatures: contextual;
+  text-rendering: optimizeLegibility;
+  -webkit-font-variant-ligatures: contextual;
+  -webkit-text-rendering: optimizeLegibility;
 }
 
 atom-text-editor, atom-text-editor::shadow,
@@ -34,5 +38,18 @@ atom-text-editor, atom-text-editor::shadow,
 
   .entity.attribute-name.html {
     color: #D2876D;
+		font-style: italic;
   }
+	.comment {
+    font-style: italic;
+    font-weight: 400;
+  }
+}
+
+.terminal-plus .xterm {
+  background-color: #1C1F26;
+  font-weight: 100;
+  color: #A3B9CB;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Fira Code";
 }
