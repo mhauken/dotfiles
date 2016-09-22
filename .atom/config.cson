@@ -1,30 +1,10 @@
 "*":
-  "exception-reporting":
-    userId: "9f822900-6e19-06d8-ec18-4d28fcc30cb7"
-  "release-notes":
-    viewedVersion: "0.75.0"
-  welcome:
-    showOnStartup: false
-  metrics:
-    userId: "04318b251f267899c20eb1ccd2b40448ac9c2557"
-  editor:
-    fontFamily: "Source Code Pro"
-    showIndentGuide: true
-    scrollPastEnd: true
-    tabLength: 4
-    invisibles: {}
-    softWrap: true
-    softWrapAtPreferredLineLength: true
+  "atom-beautify":
+    _analyticsUserId: "ba06fe51-9547-4789-930d-91d35acfdfba"
+  "autocomplete-plus":
+    autoActivationDelay: 500
   core:
-    themes: [
-      "spacegray-dark-ui"
-      "spacegray-dark-neue-syntax"
-    ]
-    ignoredNames: [
-      ".git"
-      ".svn"
-      ".DS_Store"
-    ]
+    autoHideMenuBar: true
     disabledPackages: [
       "language-clojure"
       "language-gfm"
@@ -37,7 +17,43 @@
       "language-python"
       "language-sql"
       "autocomplete"
+      "project-manager"
+      "activate-power-mode"
     ]
+    ignoredNames: [
+      ".git"
+      ".svn"
+      ".DS_Store"
+      ".jpg"
+      ".png"
+      "app"
+      "vendor"
+    ]
+    themes: [
+      "spacegray-dark-ui"
+      "spacegray-dark-neue-syntax"
+    ]
+  editor:
+    autoIndentOnPaste: false
+    fontFamily: "Fira Code"
+    invisibles:
+      eol: " "
+    scrollPastEnd: true
+    showIndentGuide: true
+    showInvisibles: true
+    softWrap: true
+    tabType: "soft"
+  emmet: {}
+  "exception-reporting":
+    userId: "9f822900-6e19-06d8-ec18-4d28fcc30cb7"
+  feedback:
+    email: "marius.hauken@gmail.com"
+  "file-icons":
+    coloured: false
+  "linter-js-standard":
+    checkStyleDevDependencies: true
+    showEslintRules: true
+  "linter-sass-lint": {}
   "markdown-preview":
     grammars: [
       "source.gfm"
@@ -45,17 +61,49 @@
       "text.plain"
       "text.plain.null-grammar"
     ]
-  feedback:
-    email: "marius.hauken@gmail.com"
-  "autocomplete-plus":
-    autoActivationDelay: 500
-  "atom-beautify":
-    _analyticsUserId: "ba06fe51-9547-4789-930d-91d35acfdfba"
-  emmet: {}
-  "file-icons":
-    coloured: false
+  metrics:
+    userId: "04318b251f267899c20eb1ccd2b40448ac9c2557"
   minimap: {}
+  pigments: {}
+  react: {}
+  "release-notes":
+    viewedVersion: "0.75.0"
+  tabs:
+    addNewTabsAtEnd: true
+    enableVcsColoring: true
+  "terminal-plus":
+    ansiColors:
+      normal:
+        black:
+          red: 34
+          green: 40
+          blue: 48
+          alpha: 1
+        red:
+          red: 205
+          green: 86
+          blue: 71
+          alpha: 1
+      zBright:
+        brightRed:
+          red: 255
+          green: 99
+          blue: 102
+          alpha: 1
+    iconColors:
+      red:
+        red: 255
+        green: 108
+        blue: 103
+        alpha: 1
+    style:
+      fontFamily: "\"Fira Code\""
+      theme: "dracula"
+  "tree-view":
+    autoReveal: true
+    hideIgnoredNames: true
+  welcome:
+    showOnStartup: false
 ".ini.source":
   editor:
-    preferredLineLength: 80
     softWrap: true
