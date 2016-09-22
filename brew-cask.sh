@@ -42,6 +42,7 @@ brew cask install plex-media-server
 brew cask install plex-home-theater
 
 # From apple store via mas:
+mas signin marius.hauken@gmail.com 
 mas install 409183694 # Keynote
 mas install 406056744 # Evernote
 mas install 443987910 # 1password
