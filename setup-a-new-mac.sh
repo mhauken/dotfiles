@@ -29,9 +29,6 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 ## Meteor
 curl https://install.meteor.com | /bin/sh
 
-# Type `git open` to open the GitHub page or website for a repository.
-npm install -g git-open
-
 # github.com/rupa/z   - oh how i love you
 git clone https://github.com/rupa/z.git ~/z
 chmod +x ~/z/z.sh
