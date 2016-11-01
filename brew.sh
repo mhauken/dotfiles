@@ -20,6 +20,7 @@ brew install git-ftp
 brew install mas # This installs Mac App Store command line interface
 brew install heroku
 brew install heroku-toolbelt
+brew install yarn
 
 # For a lot of developement:
 brew tap homebrew/dupes
