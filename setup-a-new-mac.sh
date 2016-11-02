@@ -26,9 +26,6 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 ## node
 ./node.sh
 
-## Meteor
-curl https://install.meteor.com | /bin/sh
-
 # github.com/rupa/z   - oh how i love you
 git clone https://github.com/rupa/z.git ~/z
 chmod +x ~/z/z.sh
