@@ -44,6 +44,6 @@ fi
 eval "$(rbenv init -)"
 
 export PATH=/bin:/sbin:/usr/bin:/usr/local/sbin:/usr/local/bin:$PATH
-export EDITOR='subl -w'
+export EDITOR="atom -nw"
 
 export PATH="/usr/local/bin:$PATH"
