@@ -15,6 +15,7 @@ brew update
 brew upgrade
 
 brew install git
+brew install git-open ## Open GitHub webpages from a terminal by writing `git-open`
 brew install nvm # This installs `npm` too using the recommended installation method
 brew install git-ftp
 brew install mas # This installs Mac App Store command line interface
