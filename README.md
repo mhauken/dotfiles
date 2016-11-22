@@ -44,3 +44,8 @@ apm install --packages-file package-list.txt
 2. [Generate SSH-keys](https://help.github.com/articles/generating-ssh-keys/)
 
 ## 7. Import all alfred-preferences
+
+# Notes
+Look closer on:
+* https://github.com/lra/mackup
+* https://github.com/robbyrussell/oh-my-zsh
