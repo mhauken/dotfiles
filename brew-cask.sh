@@ -19,7 +19,6 @@ brew cask install alfred
 brew cask install iterm2
 brew cask install atom
 brew cask install tower
-brew cask install github-desktop
 brew cask install transmit
 
 # browsers
@@ -40,6 +39,7 @@ brew cask install adobe-creative-cloud
 brew cask install caffeine
 brew cask install plex-media-server
 brew cask install plex-home-theater
+brew cask install dash
 
 # From apple store via mas:
 mas signin marius.hauken@gmail.com 
@@ -50,6 +50,5 @@ mas install 413965349 # Soulver
 mas install 775737590 # ia Writer
 mas install 419330170 # Moom
 mas install 507257563 # Sip
-mas install 449589707 # Dash
 mas install 974971992 # Alternote
 mas install 506189836 # Harvest
