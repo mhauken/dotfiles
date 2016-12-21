@@ -32,6 +32,10 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 ## install spaceship oh-my-zsh-theme
 curl -o - https://raw.githubusercontent.com/denysdovhan/spaceship-zsh-theme/master/install.sh | zsh
 
+## Cache your GitHubpassword first time you need it: https://help.github.com/articles/caching-your-github-password-in-git/
+git config --global credential.helper osxkeychain
+
+
 # github.com/rupa/z   - oh how i love you
 git clone https://github.com/rupa/z.git ~/z
 chmod +x ~/z/z.sh
