@@ -12,8 +12,8 @@
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 # install all the things
-./brew.sh
-./brew-cask.sh
+. brew.sh
+. brew-cask.sh
 
 
 
@@ -24,7 +24,7 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 ###
 
 ## node
-./node.sh
+. node.sh
 
 # github.com/rupa/z   - oh how i love you
 git clone https://github.com/rupa/z.git ~/z
