@@ -26,6 +26,12 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 ## node
 . node.sh
 
+## install oh-my-zsh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+
+## install spaceship oh-my-zsh-theme
+curl -o - https://raw.githubusercontent.com/denysdovhan/spaceship-zsh-theme/master/install.sh | zsh
+
 # github.com/rupa/z   - oh how i love you
 git clone https://github.com/rupa/z.git ~/z
 chmod +x ~/z/z.sh
