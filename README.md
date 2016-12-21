@@ -45,6 +45,15 @@ apm install --packages-file package-list.txt
 
 ## 7. Import all alfred-preferences
 
+## 8. Install oh-my-zsh
+```bash
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+```
+## 9. Install spaceship theme
+```bash
+curl -o - https://raw.githubusercontent.com/denysdovhan/spaceship-zsh-theme/master/install.sh | zsh
+```
+
 # Notes
 Look closer on:
 * https://github.com/lra/mackup
