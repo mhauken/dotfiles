@@ -20,7 +20,7 @@ git config --global user.email "$GIT_AUTHOR_EMAIL"
 ```
 
 ## 2. Copy all the files to your machine and run bootstrap.sh
-This copies your repository to ~/dotfiles and then run [bootstrap.sh](bootstrap.sh). When ran, it will sync the local repo and the one on GitHub, then copy those files to your home folder, overriding any existing files if they exist.
+Your computer will prompt you to download the Xcode Command Line Tools: do it. Then run the command again. This copies your repository to ~/dotfiles and then run [bootstrap.sh](bootstrap.sh). When ran, it will sync the local repo and the one on GitHub, then copy those files to your home folder, overriding any existing files if they exist.
 
 ```bash
 git clone https://github.com/mhauken/dotfiles.git && cd dotfiles && ./bootstrap.sh
