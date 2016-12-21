@@ -40,8 +40,7 @@ apm install --packages-file package-list.txt
 ```
 
 ## 6. Configure your GIT
-1. [Caching your GitHubpassword](https://help.github.com/articles/caching-your-github-password-in-git/)
-2. [Generate SSH-keys](https://help.github.com/articles/generating-ssh-keys/)
+[Generate SSH-keys](https://help.github.com/articles/generating-ssh-keys/)
 
 ## 7. Import all alfred-preferences
 
