@@ -17,6 +17,7 @@ brew cask install alfred
 
 # dev
 brew cask install iterm2
+brew cask install hyper
 brew cask install atom
 brew cask install tower
 brew cask install transmit
