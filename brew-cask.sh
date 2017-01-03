@@ -29,6 +29,7 @@ brew cask install firefox-nightly
 brew cask install torbrowser
 
 # less often
+brew cask install sketch
 brew cask install disk-inventory-x
 brew cask install vlc
 brew cask install licecap
