@@ -12,7 +12,7 @@ brew tap caskroom/versions
 
 # daily
 brew cask install dropbox
-brew cask install flux
+# brew cask install flux
 brew cask install alfred
 
 # dev
