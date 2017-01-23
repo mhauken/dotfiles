@@ -34,9 +34,9 @@ source .osx
 ```
 
 ## 5. Add all the files from .atom to your .atom-folder
-Then run this from the .atom-folder
+Then install all your starred packages:
 ```bash
-apm install --packages-file package-list.txt
+apm stars --install
 ```
 
 ## 6. Configure your GIT
