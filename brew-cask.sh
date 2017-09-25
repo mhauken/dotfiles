@@ -42,15 +42,19 @@ brew cask install caffeine
 brew cask install plex-media-server
 brew cask install plex-home-theater
 brew cask install dash
+brew cask install figma
 
 # From apple store via mas:
 mas signin marius.hauken@gmail.com 
 mas install 409183694 # Keynote
+mas install 408981434 # iMovie
 mas install 406056744 # Evernote
-mas install 443987910 # 1password
+mas install 443987910 # 1Password
+mas install 668208984 # GIPHY CAPTURE
+mas install 775737590 # iA Writer
 mas install 413965349 # Soulver
-mas install 775737590 # ia Writer
+mas install 904280696 # Things3
+mas install 1254981365 # Contrast
 mas install 419330170 # Moom
-mas install 507257563 # Sip
-mas install 974971992 # Alternote
+mas install 972028355 # Micro Snitch
 mas install 506189836 # Harvest
