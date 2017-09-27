@@ -25,7 +25,7 @@ brew cask install transmit
 # browsers
 brew cask install google-chrome
 brew cask install opera
-brew cask install firefox-nightly
+brew cask install firefoxnightly
 brew cask install torbrowser
 
 # less often
