@@ -40,7 +40,7 @@ brew cask install figma
 
 # From apple store via mas:
 # mas signin marius.hauken@gmail.com 
-echo What is your app-store username e-mail?
+echo What is your Mac app-store username e-mail?
 read username
 mas signin $username
 mas install 409183694 # Keynote
