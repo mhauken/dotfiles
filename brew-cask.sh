@@ -54,3 +54,5 @@ mas install 904280696 # Things3
 mas install 1254981365 # Contrast
 mas install 419330170 # Moom
 mas install 972028355 # Micro Snitch
+mas install 975937182 # fantastical 2
+mas install 1176895641 # Spark e-mail
