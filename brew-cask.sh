@@ -42,7 +42,7 @@ brew cask install figma
 # mas signin marius.hauken@gmail.com 
 echo What is your app-store username e-mail?
 read username
-mas signin $varname
+mas signin $username
 mas install 409183694 # Keynote
 mas install 408981434 # iMovie
 mas install 406056744 # Evernote
