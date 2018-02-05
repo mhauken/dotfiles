@@ -12,31 +12,25 @@ brew tap caskroom/versions
 
 # daily
 brew cask install dropbox
-# brew cask install flux
 brew cask install alfred
 
 # dev
-brew cask install iterm2
 brew cask install hyper
+brew cask install visual-studio-code
 brew cask install atom
 brew cask install tower
-brew cask install transmit
 
 # browsers
 brew cask install google-chrome
 brew cask install opera
 brew cask install firefoxnightly
-brew cask install torbrowser
 
 # less often
 brew cask install sketch
 brew cask install disk-inventory-x
 brew cask install vlc
-brew cask install licecap
 brew cask install spotify
 brew cask install tripmode
-brew cask install google-drive
-brew cask install backblaze
 brew cask install adobe-creative-cloud
 brew cask install caffeine
 brew cask install plex-media-server
@@ -45,7 +39,10 @@ brew cask install dash
 brew cask install figma
 
 # From apple store via mas:
-mas signin marius.hauken@gmail.com 
+# mas signin marius.hauken@gmail.com 
+echo What is your app-store username e-mail?
+read username
+mas signin $varname
 mas install 409183694 # Keynote
 mas install 408981434 # iMovie
 mas install 406056744 # Evernote
@@ -57,4 +54,3 @@ mas install 904280696 # Things3
 mas install 1254981365 # Contrast
 mas install 419330170 # Moom
 mas install 972028355 # Micro Snitch
-mas install 506189836 # Harvest
