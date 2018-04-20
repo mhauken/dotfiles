@@ -17,8 +17,6 @@ brew upgrade
 brew install git
 brew install git-open ## Open GitHub webpages from a terminal by writing `git-open`
 brew install mas # This installs Mac App Store command line interface
-brew install heroku
-brew install heroku-toolbelt
 brew install yarn
 
 # Remove outdated versions from the cellar
