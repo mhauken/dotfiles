@@ -45,6 +45,7 @@ alias please=sudo
 
 alias spotify="osascript ~/code/SpotifyControl/SpotifyControl.scpt"
 alias vlc="osascript ~/code/VLCControl/VLCControl.scpt"
+alias pdfMerge='"/System/Library/Automator/Combine PDF Pages.action/Contents/Resources/join.py" -o'
 
 # Gzip-enabled `curl`
 alias gurl='curl --compressed'
