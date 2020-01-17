@@ -26,7 +26,6 @@ brew cask install opera
 brew cask install firefoxnightly
 
 # less often
-brew cask install sketch
 brew cask install disk-inventory-x
 brew cask install vlc
 brew cask install spotify
@@ -45,14 +44,14 @@ read username
 mas signin $username
 mas install 409183694 # Keynote
 mas install 408981434 # iMovie
-mas install 406056744 # Evernote
 mas install 443987910 # 1Password
 mas install 668208984 # GIPHY CAPTURE
-mas install 775737590 # iA Writer
 mas install 413965349 # Soulver
 mas install 904280696 # Things3
 mas install 1254981365 # Contrast
 mas install 419330170 # Moom
 mas install 972028355 # Micro Snitch
-mas install 975937182 # fantastical 2
-mas install 1176895641 # Spark e-mail
+mas install 975937182 # Fantastical 2
+mas install 1016366447 # Bear
+mas install 937984704 # Amphetamine
+mas install 507874739 # Google Drive
