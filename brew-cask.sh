@@ -31,9 +31,6 @@ brew cask install vlc
 brew cask install spotify
 brew cask install tripmode
 brew cask install adobe-creative-cloud
-brew cask install caffeine
-brew cask install plex-media-server
-brew cask install plex-home-theater
 brew cask install dash
 brew cask install figma
 
