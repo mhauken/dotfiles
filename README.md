@@ -33,16 +33,10 @@ git clone https://github.com/mhauken/dotfiles.git && cd dotfiles && ./bootstrap.
 source .osx
 ```
 
-## 5. Add all the files from .atom to your .atom-folder
-Then install all your starred packages:
-```bash
-apm stars --install
-```
-
-## 6. Configure your GIT
+## 5. Configure your GIT
 [Generate SSH-keys](https://help.github.com/articles/generating-ssh-keys/)
 
-## 7. Import all alfred-preferences
+## 6. Import all alfred-preferences
 
 # Notes
 Look closer on:
