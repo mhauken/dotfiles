@@ -11,28 +11,23 @@ brew install caskroom/cask/brew-cask
 brew tap caskroom/versions
 
 # daily
-brew cask install dropbox
-brew cask install alfred
+brew cask install figma
+brew cask install cleanshot
 
 # dev
 brew cask install hyper
 brew cask install visual-studio-code
-brew cask install atom
 brew cask install tower
 
 # browsers
 brew cask install google-chrome
-brew cask install opera
 brew cask install firefoxnightly
 
 # less often
 brew cask install disk-inventory-x
-brew cask install vlc
 brew cask install spotify
 brew cask install tripmode
-brew cask install adobe-creative-cloud
-brew cask install dash
-brew cask install figma
+
 
 # From apple store via mas:
 # mas signin marius.hauken@gmail.com 
@@ -42,7 +37,6 @@ mas signin $username
 mas install 409183694 # Keynote
 mas install 408981434 # iMovie
 mas install 443987910 # 1Password
-mas install 668208984 # GIPHY CAPTURE
 mas install 413965349 # Soulver
 mas install 904280696 # Things3
 mas install 1254981365 # Contrast
@@ -52,3 +46,4 @@ mas install 975937182 # Fantastical 2
 mas install 1016366447 # Bear
 mas install 937984704 # Amphetamine
 mas install 507874739 # Google Drive
+mas install 985367838 # Outlook
