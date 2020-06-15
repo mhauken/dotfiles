@@ -10,6 +10,7 @@
 ### homebrew!
 #Install homebrew:
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+chmod +x brew.sh ; chmod +x brew-cask.sh
 
 # install all the things
 . brew.sh
