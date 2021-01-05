@@ -20,7 +20,7 @@ brew cask install visual-studio-code
 brew cask install tower
 
 # browsers
-brew cask install google-chrome
+brew cask install brave
 brew cask install firefoxnightly
 
 # less often
