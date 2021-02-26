@@ -28,7 +28,7 @@ alias o="open"
 alias oo="open ."
 alias tower="gittower ."
 alias tw="gittower ."
-
+alias pdfMerge='"/System/Library/Automator/Combine PDF Pages.action/Contents/Resources/join.py" -o'
 
 # List only directories
 alias lsd="ls -lF ${colorflag} | grep --color=never '^d'"
