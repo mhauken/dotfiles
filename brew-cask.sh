@@ -5,30 +5,25 @@
 #     brew update && brew upgrade brew-cask && brew cleanup && brew cask cleanup` 
 
 
-# Install native apps
-
-brew install caskroom/cask/brew-cask
-brew tap caskroom/versions
-
 # daily
-brew cask install figma
-brew cask install cleanshot
-brew cask install obsidian
+brew install figma
+brew install cleanshot
+brew install obsidian
 
 # dev
-brew cask install hyper
-brew cask install visual-studio-code
-brew cask install tower
-brew cask install webstorm
+brew install hyper
+brew install visual-studio-code
+brew install tower
+brew install webstorm
 
 # browsers
-brew cask install brave
-brew cask install firefoxnightly
+brew install brave-browser
+brew install firefoxnightly
 
 # less often
-brew cask install spotify
-brew cask install sonos
-brew cask install tripmode
+brew install spotify
+brew install sonos
+brew install tripmode
 
 
 # From apple store via mas:
@@ -36,7 +31,7 @@ brew cask install tripmode
 echo What is your Mac app-store username e-mail?
 read username
 mas signin $username
-mas install 413965349 # Soulver
+mas install 1508732804 # Soulver3
 mas install 904280696 # Things3
 mas install 1254981365 # Contrast
 mas install 419330170 # Moom
