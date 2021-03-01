@@ -9,6 +9,7 @@
 brew install figma
 brew install cleanshot
 brew install obsidian
+brew install slack
 
 # dev
 brew install hyper
