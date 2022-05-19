@@ -13,8 +13,8 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 chmod +x brew.sh ; chmod +x brew-cask.sh
 
 # install all the things
-. brew.sh
-. brew-cask.sh
+sh brew.sh
+sh brew-cask.sh
 
 
 
@@ -25,7 +25,7 @@ chmod +x brew.sh ; chmod +x brew-cask.sh
 ###
 
 ## node
-. node.sh
+sh node.sh
 
 ## install oh-my-zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
